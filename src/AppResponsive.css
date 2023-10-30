@@ -82,6 +82,12 @@
   .mission-card {
     width: 100%;
   }
+  .footer-container {
+    flex-direction: column;
+  }
+  .left p {
+    text-align: center;
+  }
 }
 @media (max-width: 575px) {
   .hero-content h1 {

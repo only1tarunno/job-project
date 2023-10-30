@@ -232,6 +232,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 .contact::before {
@@ -326,4 +327,39 @@ p {
   border-radius: 6px;
   padding: 32px;
   width: 50%;
+}
+/* foooter start here  */
+.footer {
+  background-color: #0c1234;
+  padding: 40px;
+  color: #fff;
+}
+.left h3 {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 0;
+}
+.right ul li {
+  margin-left: 15px;
+}
+.right ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }

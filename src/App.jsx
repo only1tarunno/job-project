@@ -3,6 +3,7 @@ import "./AppResponsive.css";
 import About from "./Components/About";
 import Banner from "./Components/Banner";
 import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 import OurMission from "./Components/OurMission";
 import Services from "./Components/Services";
 import Testimonial from "./Components/Testimonial";
@@ -20,6 +21,7 @@ function App() {
       <OurMission></OurMission>
       <ContactUs></ContactUs>
       <WhoWeWork></WhoWeWork>
+      <Footer></Footer>
     </>
   );
 }
