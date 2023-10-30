@@ -98,3 +98,69 @@ p {
   font-size: 18px;
   margin: 10px 0;
 }
+
+/* service section start here  */
+
+.service {
+  padding: 60px 0;
+  background-color: #eff4ff;
+}
+.service-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-container p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.service-card-container {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+.service-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.service-card img {
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-body h2 {
+  color: #203872;
+  font-weight: 700;
+  font-size: 24px;
+}
+.card-body p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.card-body .btn {
+  font-size: 20px;
+}
+.service-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.service-footer-left p {
+  margin: 0;
+  color: #203872;
+  font-weight: 700;
+  font-size: 20px;
+}
