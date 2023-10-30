@@ -56,3 +56,45 @@
   background-color: #ec1737;
   cursor: pointer;
 }
+
+/* about us section start here  */
+
+.about {
+  max-width: 1280px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10;
+}
+.about-left {
+  width: 47%;
+}
+.about-left img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-right {
+  text-align: start;
+  width: 52%;
+  padding-left: 40px;
+}
+/* font-bold text-xl lg:text-3xl */
+h3 {
+  color: #203872;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h2 {
+  color: #0a0b09;
+  font-weight: 700;
+  font-size: 45px;
+  padding: 12px 0;
+}
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
