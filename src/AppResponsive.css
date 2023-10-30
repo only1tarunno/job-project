@@ -21,6 +21,10 @@
     width: 100%;
     padding: 40px 20px;
   }
+  .contact-container {
+    width: 100%;
+    padding: 40px 20px;
+  }
 }
 @media (max-width: 767px) {
   .about {
@@ -58,6 +62,15 @@
   }
   .whyUsImg {
     margin-bottom: 50px;
+  }
+  .form {
+    width: 100%;
+  }
+  .form-inner {
+    flex-direction: column;
+  }
+  .form-inner input {
+    width: 100%;
   }
 }
 @media (max-width: 575px) {
