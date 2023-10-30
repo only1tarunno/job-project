@@ -17,6 +17,10 @@
     padding: 40px 20px;
     text-align: center;
   }
+  .testimonial-container {
+    width: 100%;
+    padding: 40px 20px;
+  }
 }
 @media (max-width: 767px) {
   .about {
@@ -69,6 +73,4 @@
   .service-card-container {
     gap: 20px;
   }
-}
-@media (max-width: 500px) {
 }
