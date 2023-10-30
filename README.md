@@ -1,8 +1,7 @@
-# React + Vite
+# Team Event project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site Live Link : https://demo-project-281.netlify.app/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This site is build with raw css. I don't use any css component library. With any Component library I can build website more beautifully and gorgeous in short time.
+I have use swiper js for slider in testimonial section
+I have use React FAST Marquee for img slide in work section
