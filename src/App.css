@@ -269,3 +269,22 @@ p {
 .form textarea::placeholder {
   font-family: "Mulish", sans-serif;
 }
+/* who we work with  */
+/* md:py-20 bg-[#eff4ff] py-16 */
+.work {
+  background-color: #eff4ff;
+}
+.work-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.work-container h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.work-img {
+  height: 128px;
+  margin: 0 40px;
+  object-fit: cover;
+}
