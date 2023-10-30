@@ -164,3 +164,30 @@ p {
   font-weight: 700;
   font-size: 20px;
 }
+/* why choose us  */
+.whyUs-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.whyUs-inner-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+.whyUs-content {
+  width: 48%;
+}
+.whyUs-content h3 {
+  font-size: 24px;
+}
+.whyUsImg {
+  width: 47%;
+}
+.whyUsImg img {
+  width: 100%;
+}

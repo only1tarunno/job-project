@@ -12,6 +12,11 @@
   .service-card-container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .whyUs-container {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
   .about {
@@ -38,6 +43,17 @@
   }
   .service-card-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .whyUs-inner-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .whyUs-content,
+  .whyUsImg {
+    width: 100%;
+  }
+  .whyUsImg {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 575px) {
