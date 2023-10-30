@@ -2,7 +2,7 @@ import aboutimg from "../assets/about.jpg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-left">
         <img
           data-aos="fade-up"

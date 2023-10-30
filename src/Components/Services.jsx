@@ -10,7 +10,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="service">
+    <div className="service" id="services">
       <div className="service-container">
         <h3
           data-aos="fade-up"

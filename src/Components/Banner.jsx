@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="banner">
       <div className="hero-content">
         <h1 data-aos="fade-up" data-aos-duration="500">
           Get an unforgettable Event Experience with us

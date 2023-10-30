@@ -1,3 +1,41 @@
+/* navbar start here  */
+.navbar {
+  background-color: #203872;
+
+  padding: 20px 0;
+}
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-container ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.navbar-container ul li {
+  position: relative;
+}
+.navbar-container ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0;
+  background-color: #fff;
+  transition: 0.4s ease-in-out;
+}
+.navbar-container ul li:hover:after {
+  width: 100%;
+}
+.navbar-container ul li a {
+  font-size: 20px;
+  text-transform: capitalize;
+}
 /* banner start here  */
 .hero {
   background-image: url(./assets/cele.jpg);
@@ -9,7 +47,7 @@
 }
 
 .hero::after {
-  content: ".";
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -236,7 +274,7 @@ p {
   position: relative;
 }
 .contact::before {
-  content: ".";
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
