@@ -3,11 +3,7 @@ const WhyUs = () => {
   return (
     <div className=" md:py-20 py-16 ">
       <div className="whyUs-container">
-        <h2
-          data-aos="fade-up"
-          data-aos-duration="500"
-          className="pb-3 text-[#0a0b09] text-3xl text-center my-3 lg:text-5xl font-bold"
-        >
+        <h2 data-aos="fade-up" data-aos-duration="500">
           Why Choose Us?
         </h2>
         <div className="whyUs-inner-container">

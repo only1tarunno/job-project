@@ -76,6 +76,12 @@
   .form-inner input {
     width: 100%;
   }
+  .mission-container {
+    flex-direction: column;
+  }
+  .mission-card {
+    width: 100%;
+  }
 }
 @media (max-width: 575px) {
   .hero-content h1 {
